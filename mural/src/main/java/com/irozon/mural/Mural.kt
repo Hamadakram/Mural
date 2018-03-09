@@ -125,7 +125,7 @@ class Mural {
      * Disable cache
      */
     fun disableCache(): Mural {
-        enableCache = true
+        enableCache = false
         cacheAllowed = 0f
         return getMural()
     }

@@ -14,6 +14,5 @@ class MainActivity : AppCompatActivity() {
 
         ivImage.placeholder = resources.getDrawable(R.drawable.placeholder)
         ivImage.source = "http://blog.europeana.eu/wp-content/uploads/2017/01/2063604_DEN_280_010.jpeg"
-
     }
 }
